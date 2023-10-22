@@ -49,7 +49,7 @@
                         </td>
 
                         <td>
-                            <a class="btn btn-danger" href="{{url('deleteproduct', $product->id)}}">Delete</a>
+                            <a class="btn btn-danger" onclick="return confirm('Confirm Deletion?')" href="{{url('deleteproduct', $product->id)}}">Delete</a>
                         </td>
                     </tr>
 
