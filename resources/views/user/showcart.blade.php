@@ -117,12 +117,16 @@ https://templatemo.com/tm-546-sixteen-clothing
             <td style="padding:10px; font-size: 20px; color: white;">Action</td>
         </tr>
 
+    <form action="{{url('order')}}" method="POST">
+
+        @csrf
+    
     @foreach($cart as $carts)
 
         <tr style="background-color: gray;">
-            <td style="padding:10px; color:white;">{{$carts->product_title}}</td>
-            <td style="padding:10px; color:white;">{{$carts->quantity}}</td>
-            <td style="padding:10px; color:white;">{{$carts->price}}</td>
+            <td style="padding:10px; color:white;"><input type="text" name="productname[]" value="{{$carts->product_title}}" hidden="">{{$carts->product_title}}</td>
+            <td style="padding:10px; color:white;"><input type="text" name="quantity[]" value="{{$carts->quantity}}" hidden="">{{$carts->quantity}}</td>
+            <td style="padding:10px; color:white;"><input type="text" name="price[]" value="{{$carts->price}}" hidden="">{{$carts->price}}</td>
             <td style="padding:10px; color:white;">
                 <a class="btn btn-danger" href="{{url('delete', $carts->id)}}">Delete</a></td>
         </tr>
@@ -130,6 +134,9 @@ https://templatemo.com/tm-546-sixteen-clothing
     @endforeach
 
     </table>
+    <br>
+    <button class="btn btn-success">Confirm Order</button>
+    </form>
     </div>
 
     <!-- Bootstrap core JavaScript -->

@@ -3,13 +3,20 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
 
+use Illuminate\Support\Facades\DB;
+
 use App\Models\User;
+
 use App\Models\Product;
+
 use App\Models\Cart;
+
+use App\Models\Order;
 
 
 
@@ -97,6 +104,42 @@ class HomeController extends Controller
         $data = cart::find($id);
         $data->delete();
 
-        return redirect()->back()->with('message', 'Product Removed from Cart Successfully');;
+        return redirect()->back()->with('message', 'Product Removed from Cart Successfully');
+    }
+
+    public function confirmorder(Request $request)
+    {
+        $user = auth()->user();
+
+        $name = $user->name;
+
+        $phone = $user->phone;
+
+        $address = $user->address;
+
+        foreach ($request->productname as $key => $productname) {
+
+            $order = new order;
+
+            $order->product_name = $request->productname[$key];
+
+            $order->price = $request->price[$key];
+
+            $order->quantity = $request->quantity[$key];
+
+            $order->name = $name;
+
+            $order->phone = $phone;
+
+            $order->address = $address;
+
+            $order->status = 'not delivered';
+
+            $order->save();
+        }
+
+        DB::table('carts')->where('phone', $phone)->delete();
+
+        return redirect()->back()->with('message', 'Product Ordered Successfully');
     }
 }
