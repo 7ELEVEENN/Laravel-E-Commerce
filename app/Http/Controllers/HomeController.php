@@ -145,52 +145,73 @@ class HomeController extends Controller
 
     public function allbooks()
     {
-        $usertype = Auth::user()->usertype;
+        if (auth()->check()) {
+            $usertype = Auth::user()->usertype;
 
-        if ($usertype == '1') {
-            return view('admin.home');
+            if ($usertype == '1') {
+                return view('admin.home');
+            } else {
+                $data = product::paginate(3);
+
+                $user = auth()->user();
+
+                $count = cart::where('phone', $user->phone)->count();
+
+                return view('user.books', compact('data', 'count'));
+            }
         } else {
+            // Handle the case when the user is not logged in
             $data = product::paginate(3);
 
-            $user = auth()->user();
-
-            $count = cart::where('phone', $user->phone)->count();
-
-            return view('user.books', compact('data', 'count'));
+            return view('user.books', compact('data'));
         }
     }
 
     public function about()
     {
-        $usertype = Auth::user()->usertype;
+        if (auth()->check()) {
+            $usertype = Auth::user()->usertype;
 
-        if ($usertype == '1') {
-            return view('admin.home');
+            if ($usertype == '1') {
+                return view('admin.home');
+            } else {
+                $data = product::paginate(3);
+
+                $user = auth()->user();
+
+                $count = cart::where('phone', $user->phone)->count();
+
+                return view('user.about', compact('data', 'count'));
+            }
         } else {
+            // Handle the case when the user is not logged in
             $data = product::paginate(3);
 
-            $user = auth()->user();
-
-            $count = cart::where('phone', $user->phone)->count();
-
-            return view('user.about', compact('data', 'count'));
+            return view('user.about', compact('data'));
         }
     }
 
     public function contact()
     {
-        $usertype = Auth::user()->usertype;
+        if (auth()->check()) {
+            $usertype = Auth::user()->usertype;
 
-        if ($usertype == '1') {
-            return view('admin.home');
+            if ($usertype == '1') {
+                return view('admin.home');
+            } else {
+                $data = product::paginate(3);
+
+                $user = auth()->user();
+
+                $count = cart::where('phone', $user->phone)->count();
+
+                return view('user.contact', compact('data', 'count'));
+            }
         } else {
+            // Handle the case when the user is not logged in
             $data = product::paginate(3);
 
-            $user = auth()->user();
-
-            $count = cart::where('phone', $user->phone)->count();
-
-            return view('user.contact', compact('data', 'count'));
+            return view('user.contact', compact('data'));
         }
     }
 }
