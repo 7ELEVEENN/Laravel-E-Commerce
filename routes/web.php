@@ -58,3 +58,9 @@ route::post('/order', [HomeController::class, 'confirmorder']);
 route::get('/showorder', [AdminController::class, 'showorder']);
 
 route::get('/updatestatus/{id}', [AdminController::class, 'updatestatus']);
+
+route::get('/allbooks', [HomeController::class, 'allbooks']);
+
+Route::get('/about', [HomeController::class, 'about'])->name('user.about');
+
+Route::get('/contact', [HomeController::class, 'contact'])->name('user.contact');

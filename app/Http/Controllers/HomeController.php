@@ -142,4 +142,55 @@ class HomeController extends Controller
 
         return redirect()->back()->with('message', 'Product Ordered Successfully');
     }
+
+    public function allbooks()
+    {
+        $usertype = Auth::user()->usertype;
+
+        if ($usertype == '1') {
+            return view('admin.home');
+        } else {
+            $data = product::paginate(3);
+
+            $user = auth()->user();
+
+            $count = cart::where('phone', $user->phone)->count();
+
+            return view('user.books', compact('data', 'count'));
+        }
+    }
+
+    public function about()
+    {
+        $usertype = Auth::user()->usertype;
+
+        if ($usertype == '1') {
+            return view('admin.home');
+        } else {
+            $data = product::paginate(3);
+
+            $user = auth()->user();
+
+            $count = cart::where('phone', $user->phone)->count();
+
+            return view('user.about', compact('data', 'count'));
+        }
+    }
+
+    public function contact()
+    {
+        $usertype = Auth::user()->usertype;
+
+        if ($usertype == '1') {
+            return view('admin.home');
+        } else {
+            $data = product::paginate(3);
+
+            $user = auth()->user();
+
+            $count = cart::where('phone', $user->phone)->count();
+
+            return view('user.contact', compact('data', 'count'));
+        }
+    }
 }
