@@ -71,10 +71,14 @@ https://templatemo.com/tm-546-sixteen-clothing
                     @auth
 
                     <li class="nav-item">
-                      <a class="nav-link" href="{{url('showcart')}}">
-                        <i class="fas fa-shopping-cart"></i>
-                        Cart[{{$count}}]</a>
-                    </li>
+                      <a class="nav-link" href="{{ url('showcart') }}">
+                          <i class="fas fa-shopping-cart"></i> Cart
+                          @if(isset($count) && $count > 0)
+                              [{{ $count }}]
+                          @endif
+                      </a>
+                  </li>
+                  
 
 
                         <x-app-layout>
