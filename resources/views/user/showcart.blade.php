@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Book Corner</title>
+    <title>Cart | Book Corner</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -98,7 +98,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 
     <div style="padding:100px;" align="center">
     <table>
-        <tr style="background-color:black;">
+        <tr style="background-color:#051831;">
             <td style="padding:10px; font-size: 20px; color: white;">Product Name</td>
             <td style="padding:10px; font-size: 20px; color: white;">Quantity</td>
             <td style="padding:10px; font-size: 20px; color: white;">Price</td>

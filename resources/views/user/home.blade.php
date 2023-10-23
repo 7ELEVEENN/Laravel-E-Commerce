@@ -73,7 +73,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                     <li class="nav-item">
                       <a class="nav-link" href="{{ url('showcart') }}">
                           <i class="fas fa-shopping-cart"></i> Cart
-                          @if(isset($count) && $count > 0)
+                          @if(isset($count) && $count >= 0)
                               [{{ $count }}]
                           @endif
                       </a>
