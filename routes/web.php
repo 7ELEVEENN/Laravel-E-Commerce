@@ -53,7 +53,6 @@ route::get('/showcart', [HomeController::class, 'showcart']);
 
 route::get('/delete/{id}', [HomeController::class, 'deletecart']);
 
-route::post('/order', [HomeController::class, 'confirmorder']);
 
 route::get('/showorder', [AdminController::class, 'showorder']);
 
@@ -64,3 +63,5 @@ route::get('/allbooks', [HomeController::class, 'allbooks']);
 Route::get('/about', [HomeController::class, 'about'])->name('user.about');
 
 Route::get('/contact', [HomeController::class, 'contact'])->name('user.contact');
+
+route::post('/order', [HomeController::class, 'cash_on_delivery']);

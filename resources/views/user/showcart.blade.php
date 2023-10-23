@@ -108,22 +108,36 @@ https://templatemo.com/tm-546-sixteen-clothing
     <form action="{{url('order')}}" method="POST">
 
         @csrf
+
+    <?php $totalprice=0;  ?>
     
     @foreach($cart as $carts)
 
         <tr style="background-color: gray;">
             <td style="padding:10px; color:white;"><input type="text" name="productname[]" value="{{$carts->product_title}}" hidden="">{{$carts->product_title}}</td>
             <td style="padding:10px; color:white;"><input type="text" name="quantity[]" value="{{$carts->quantity}}" hidden="">{{$carts->quantity}}</td>
-            <td style="padding:10px; color:white;"><input type="text" name="price[]" value="{{$carts->price}}" hidden="">{{$carts->price}}</td>
+            <td style="padding:10px; color:white;"><input type="text" name="price[]" value="{{$carts->price}}" hidden="">₱ {{$carts->price}}</td>
             <td style="padding:10px; color:white;">
                 <a class="btn btn-danger" href="{{url('delete', $carts->id)}}">Delete</a></td>
         </tr>
+
+
+        <?php $totalprice=$totalprice + $carts->price ?>
+        
     
     @endforeach
 
     </table>
-    <br>
-    <button class="btn btn-success">Confirm Order</button>
+
+    <div>
+
+        <h1 style="font-size: 20px; padding: 40px;">Total Price: ₱ {{$totalprice}}</h1>
+
+    </div>
+
+    <h1 style="font-size: 20px; padding-bottom: 40px;">Proceed to Order by Choosing Mode of Payment (MOD)</h1>
+    <button class="btn btn-success">Cash on Delivery</button>
+    <a href="" class="btn btn-success">Card Payment</a>
     </form>
     </div>
 

@@ -107,41 +107,7 @@ class HomeController extends Controller
         return redirect()->back()->with('message', 'Product Removed from Cart Successfully');
     }
 
-    public function confirmorder(Request $request)
-    {
-        $user = auth()->user();
 
-        $name = $user->name;
-
-        $phone = $user->phone;
-
-        $address = $user->address;
-
-        foreach ($request->productname as $key => $productname) {
-
-            $order = new order;
-
-            $order->product_name = $request->productname[$key];
-
-            $order->price = $request->price[$key];
-
-            $order->quantity = $request->quantity[$key];
-
-            $order->name = $name;
-
-            $order->phone = $phone;
-
-            $order->address = $address;
-
-            $order->status = 'not delivered';
-
-            $order->save();
-        }
-
-        DB::table('carts')->where('phone', $phone)->delete();
-
-        return redirect()->back()->with('message', 'Product Ordered Successfully');
-    }
 
     public function allbooks()
     {
@@ -213,5 +179,43 @@ class HomeController extends Controller
 
             return view('user.contact', compact('data'));
         }
+    }
+
+    public function cash_on_delivery(Request $request)
+    {
+        $user = auth()->user();
+
+        $name = $user->name;
+
+        $phone = $user->phone;
+
+        $address = $user->address;
+
+        foreach ($request->productname as $key => $productname) {
+
+            $order = new order;
+
+            $order->product_name = $request->productname[$key];
+
+            $order->price = $request->price[$key];
+
+            $order->quantity = $request->quantity[$key];
+
+            $order->name = $name;
+
+            $order->phone = $phone;
+
+            $order->address = $address;
+
+            $order->status = 'not delivered';
+
+            $order->payment_status = 'Cash On Delivery';
+
+            $order->save();
+        }
+
+        DB::table('carts')->where('phone', $phone)->delete();
+
+        return redirect()->back()->with('message', 'Product Ordered Successfully');
     }
 }
