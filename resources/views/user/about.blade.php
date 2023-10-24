@@ -128,8 +128,12 @@ https://templatemo.com/tm-546-sixteen-clothing
             </div>
             <div class="col-md-6">
               <div class="left-content">
-                <h4>Who we are &amp; What we do?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis.</p>
+                <h4>About Us</h4>
+                <p style="text-align: justify">At Book Strap, we are more than just an online bookstore; we are a passionate community of book enthusiasts committed to spreading the love of literature and the magic of reading. Our journey began with a simple idea: to create a virtual haven for bookworms and bibliophiles alike, where they can explore, discover, and purchase their favorite books from the comfort of their own homes.
+                  <br>
+                  <h4>Our story</h4> 
+                  <p style="text-align: justify">Book Strap was founded by a group of avid readers who shared a common dream – to make the world of books easily accessible and enjoyable for everyone. We wanted to create a space where the written word could be celebrated, where stories could come to life, and where the wonders of reading could be shared with the world.
+                  </p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -167,9 +171,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                   </div>
                 </div>
                 <div class="down-content">
-                  <h4>Johnny William</h4>
+                  <h4>Venn Delos Santos</h4>
                   <span>CO-Founder</span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                  <p>Silent but deadly oppa</p>
                 </div>
               </div>
             </div>
@@ -189,9 +193,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                   </div>
                 </div>
                 <div class="down-content">
-                  <h4>Karry Pitcher</h4>
-                  <span>Product Expert</span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                  <h4>Marc Christian Tumaneng</h4>
+                  <span>Team Leader</span>
+                  <p>Ohjuossan ng Naspi</p>
                 </div>
               </div>
             </div>
@@ -211,16 +215,16 @@ https://templatemo.com/tm-546-sixteen-clothing
                   </div>
                 </div>
                 <div class="down-content">
-                  <h4>Michael Soft</h4>
-                  <span>Chief Marketing</span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                  <h4>John Christian Gave</h4>
+                  <span>Layout Editor</span>
+                  <p>Dzaddy ng ComSci</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/team_04.jpg" alt="">
+                  <img src="assets/images/team_04.jpg" alt="" >
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
@@ -233,9 +237,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                   </div>
                 </div>
                 <div class="down-content">
-                  <h4>Mary Cool</h4>
-                  <span>Product Specialist</span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                  <h4>Roberto Bayos Jr.</h4>
+                  <span>Front end dev</span>
+                  <p>Mekus mekus lang ambag</p>
                 </div>
               </div>
             </div>
@@ -255,32 +259,13 @@ https://templatemo.com/tm-546-sixteen-clothing
                   </div>
                 </div>
                 <div class="down-content">
-                  <h4>George Walker</h4>
-                  <span>Product Photographer</span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                  <h4>Johnben Augustus Nadal</h4>
+                  <span>Cookerist</span>
+                  <p>Luto lang ambag</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="team-member">
-                <div class="thumb-container">
-                  <img src="assets/images/team_06.jpg" alt="">
-                  <div class="hover-effect">
-                    <div class="hover-content">
-                      <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="down-content">
-                  <h4>Kate Town</h4>
-                  <span>General Manager</span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                </div>
+         
               </div>
             </div>
           </div>
