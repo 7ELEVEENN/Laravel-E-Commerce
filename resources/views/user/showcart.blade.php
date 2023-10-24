@@ -145,7 +145,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 
     </div>
 
-    <h1 style="font-size: 20px; padding-bottom: 40px;">Proceed to Order by Choosing Mode of Payment (MOD)</h1>
+    <h1 style="font-size: 20px; padding-bottom: 40px;">Proceed to Order by Choosing Mode of Payment (MOP)</h1>
     <button class="btn btn-success">Cash on Delivery</button>
     <a href="" class="btn btn-success">Card Payment</a>
     </form>
