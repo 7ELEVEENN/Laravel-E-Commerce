@@ -44,7 +44,11 @@ https://templatemo.com/tm-546-sixteen-clothing
     <!-- Header -->
     <header class="">
       <nav class="navbar navbar-expand-lg">
+        
         <div class="container">
+          
+          <!--<img src="{{ asset('assets/images/icon.png') }}" alt="Logo" height="40"> -->
+
           <a class="navbar-brand" href="{{ url('/') }}"><h2>Book <em>Strap</em></h2></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
