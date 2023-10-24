@@ -130,10 +130,9 @@ https://templatemo.com/tm-546-sixteen-clothing
               <div class="left-content">
                 <h4>About Us</h4>
                 <p style="text-align: justify">At Book Strap, we are more than just an online bookstore; we are a passionate community of book enthusiasts committed to spreading the love of literature and the magic of reading. Our journey began with a simple idea: to create a virtual haven for bookworms and bibliophiles alike, where they can explore, discover, and purchase their favorite books from the comfort of their own homes.
-                  <br>
-                  <h4>Our story</h4> 
-                  <p style="text-align: justify">Book Strap was founded by a group of avid readers who shared a common dream – to make the world of books easily accessible and enjoyable for everyone. We wanted to create a space where the written word could be celebrated, where stories could come to life, and where the wonders of reading could be shared with the world.
-                  </p>
+                <h4>Our story</h4> 
+                <p style="text-align: justify">Book Strap was founded by a group of avid readers who shared a common dream – to make the world of books easily accessible and enjoyable for everyone. We wanted to create a space where the written word could be celebrated, where stories could come to life, and where the wonders of reading could be shared with the world.
+                </p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -158,7 +157,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/oppa.jpg" alt="">
+                  <img src="assets/images/as.jpg" alt="" height="348px" width="348px">
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
@@ -170,7 +169,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                     </div>
                   </div>
                 </div>
-                <div class="down-content">
+                <div class="down-content" >
                   <h4>Venn Delos Santos</h4>
                   <span>CO-Founder</span>
                   <p>Silent but deadly oppa</p>
@@ -246,7 +245,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/team_05.jpg" alt="">
+                  <img src="assets/images/dabs.jpeg" alt="">
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
