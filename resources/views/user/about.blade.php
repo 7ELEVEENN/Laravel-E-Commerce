@@ -177,8 +177,8 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </div>
                 <div class="down-content" >
                   <h4>Venn Delos Santos</h4>
-                  <span>CO-Founder</span>
-                  <p>Silent but deadly oppa</p>
+                  <span>Member</span>
+                  <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
                 </div>
               </div>
             </div>
@@ -199,8 +199,8 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </div>
                 <div class="down-content">
                   <h4>Marc Christian Tumaneng</h4>
-                  <span>Team Leader</span>
-                  <p>Ohjussan ng Naspi</p>
+                  <span>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</span>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -221,8 +221,8 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </div>
                 <div class="down-content">
                   <h4>John Christian Gave</h4>
-                  <span>Layout Editor</span>
-                  <p>Dzaddy ng ComSci</p>
+                  <span>Member</span>
+                  <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
                 </div>
               </div>
             </div>
@@ -243,8 +243,8 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </div>
                 <div class="down-content">
                   <h4>Roberto Bayos Jr.</h4>
-                  <span>Front end dev</span>
-                  <p>Mekus mekus lang ambag</p>
+                  <span>Member</span>
+                  <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
                 </div>
               </div>
             </div>
@@ -265,8 +265,8 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </div>
                 <div class="down-content">
                   <h4>Johnben Augustus Nadal</h4>
-                  <span>Cookerist</span>
-                  <p>Luto lang ambag</p>
+                  <span>Member</span>
+                  <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
                 </div>
               </div>
             </div>
