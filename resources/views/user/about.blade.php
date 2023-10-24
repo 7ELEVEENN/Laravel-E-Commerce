@@ -96,6 +96,7 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
       </div>
     </nav>
+   </header>
 
     <!-- Page Content -->
     <div class="page-heading about-heading header-text">
