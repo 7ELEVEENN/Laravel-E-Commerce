@@ -158,7 +158,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/team_01.jpg" alt="">
+                  <img src="assets/images/oppa.jpg" alt="">
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
@@ -180,7 +180,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/team_02.jpg" alt="">
+                  <img src="assets/images/ohjussan.jpg" alt="">
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
@@ -195,14 +195,14 @@ https://templatemo.com/tm-546-sixteen-clothing
                 <div class="down-content">
                   <h4>Marc Christian Tumaneng</h4>
                   <span>Team Leader</span>
-                  <p>Ohjuossan ng Naspi</p>
+                  <p>Ohjussan ng Naspi</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/team_03.jpg" alt="">
+                  <img src="assets/images/dzaddy.jpg" alt="">
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
@@ -224,7 +224,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/team_04.jpg" alt="" >
+                  <img src="assets/images/mekus.jpg" alt="" >
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
