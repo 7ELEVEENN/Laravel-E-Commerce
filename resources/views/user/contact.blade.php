@@ -138,8 +138,8 @@ https://templatemo.com/tm-546-sixteen-clothing
             </div>
             <div class="col-md-4">
               <div class="left-content">
-                <h4>About our office</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
+                <h4>About our Office</h4>
+                <p>If you have any questions, suggestions, or just want to say hello, don't hesitate to get in touch with us. Our team is here to assist you! You can reach us via email at bookstrap@example.com, or give us a call at +1 (555) 123-4567. Our office is open from 9:00 AM to 5:00 PM, Monday through Friday at Camarines Sur Polytechnic Colleges. We look forward to hearing from you!</p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -194,76 +194,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </form>
               </div>
             </div>
-            <div class="col-md-4">
-              <ul class="accordion">
-                <li>
-                    <a>Accordion Title One</a>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                    </div>
-                </li>
-                <li>
-                    <a>Second Title Here</a>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                    </div>
-                </li>
-                <li>
-                    <a>Accordion Title Three</a>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                    </div>
-                </li>
-                <li>
-                    <a>Fourth Accordion Title</a>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                    </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="happy-clients">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="section-heading">
-                <h2>Our Happy Customers</h2>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="owl-clients owl-carousel">
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="1">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="2">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="3">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="4">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="5">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="6">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   
       
       <footer>
@@ -271,15 +202,12 @@ https://templatemo.com/tm-546-sixteen-clothing
           <div class="row">
             <div class="col-md-12">
               <div class="inner-content">
-                <p>Copyright &copy; 2020 Sixteen Clothing Co., Ltd.
-              
-              - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+   
               </div>
             </div>
           </div>
         </div>
       </footer>
-
 
 
 

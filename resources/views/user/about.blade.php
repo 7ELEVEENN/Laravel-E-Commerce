@@ -108,8 +108,10 @@ https://templatemo.com/tm-546-sixteen-clothing
           <div class="row">
             <div class="col-md-12">
               <div class="text-content">
-                <h4>about us</h4>
-                <h2>our company</h2>
+                <h4></h4>
+                <br>
+                <br>
+                <h2>about us</h2>
               </div>
             </div>
           </div>
@@ -165,7 +167,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="#"><i class="fa fa-behance"></i></a></li>
@@ -187,7 +189,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="#"><i class="fa fa-behance"></i></a></li>
@@ -275,89 +277,10 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
       </div>
   
-  
-      <div class="services">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="icon">
-                  <i class="fa fa-gear"></i>
-                </div>
-                <div class="down-content">
-                  <h4>Product Management</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                  <a href="#" class="filled-button">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="icon">
-                  <i class="fa fa-gear"></i>
-                </div>
-                <div class="down-content">
-                  <h4>Customer Relations</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                  <a href="#" class="filled-button">Details</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="icon">
-                  <i class="fa fa-gear"></i>
-                </div>
-                <div class="down-content">
-                  <h4>Global Collection</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                  <a href="#" class="filled-button">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   
   
-      <div class="happy-clients">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="section-heading">
-                <h2>Happy Partners</h2>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="owl-clients owl-carousel">
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="1">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="2">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="3">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="4">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="5">
-                </div>
-                
-                <div class="client-item">
-                  <img src="assets/images/client-01.png" alt="6">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
   
       
       <footer>
@@ -365,9 +288,7 @@ https://templatemo.com/tm-546-sixteen-clothing
           <div class="row">
             <div class="col-md-12">
               <div class="inner-content">
-                <p>Copyright &copy; 2020 Sixteen Clothing Co., Ltd.
-              
-              - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+   
               </div>
             </div>
           </div>
