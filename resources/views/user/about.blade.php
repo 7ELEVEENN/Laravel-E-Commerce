@@ -157,7 +157,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="col-md-4">
               <div class="team-member">
                 <div class="thumb-container">
-                  <img src="assets/images/as.jpg" alt="" height="348px" width="348px">
+                  <img src="assets/images/qwe.jpg" alt="" height="348px" width="348px">
                   <div class="hover-effect">
                     <div class="hover-content">
                       <ul class="social-icons">

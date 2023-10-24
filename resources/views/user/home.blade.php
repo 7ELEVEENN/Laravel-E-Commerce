@@ -124,8 +124,8 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
         <div class="banner-item-02">
           <div class="text-content">
-            <h4>Flash Deals</h4>
-            <h2>Get your best products</h2>
+            <h4></h4>
+            <h2></h2>
           </div>
         </div>
         <div class="banner-item-03">

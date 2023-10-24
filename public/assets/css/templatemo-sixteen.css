@@ -110,7 +110,7 @@ a.filled-button:hover {
 }
 
 .page-heading .text-content h4 {
-	color: #40F8FF;
+	color: #17292a;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -319,7 +319,7 @@ header .navbar {
 
 .banner-item-01 {
 	padding: 300px 0px;
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/back1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -327,7 +327,7 @@ header .navbar {
 
 .banner-item-02 {
 	padding: 300px 0px;
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/slide_02.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -354,7 +354,7 @@ header .navbar {
 }
 
 .banner .text-content h4 {
-	color: #40F8FF;
+	color: #0C356A;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 700;
