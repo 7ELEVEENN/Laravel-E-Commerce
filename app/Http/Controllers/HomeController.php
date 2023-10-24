@@ -218,4 +218,11 @@ class HomeController extends Controller
 
         return redirect()->back()->with('message', 'Product Ordered Successfully');
     }
+
+    public function showorder()
+    {
+        $order = order::all();
+
+        return view('user.showorder', compact('order'));
+    }
 }

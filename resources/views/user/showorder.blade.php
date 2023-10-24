@@ -71,10 +71,13 @@ https://templatemo.com/tm-546-sixteen-clothing
                   @auth
 
                   <li class="nav-item">
-                    <a class="nav-link" href="{{url('showcart')}}">
-                      <i class="fas fa-shopping-cart"></i>
-                      Cart[{{$count}}]</a>
-                  </li>
+                    <a class="nav-link" href="{{ url('showcart') }}">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                        @if(isset($count) && $count >= 0)
+                            [{{ $count }}]
+                        @endif
+                    </a>
+                </li>
 
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('showorder') }}">Orders</a>
@@ -110,49 +113,53 @@ https://templatemo.com/tm-546-sixteen-clothing
 
             @endif
 
-    <div style="padding:20px;" align="center">
-    <table>
-        <tr style="background-color:#051831;">
-            <td style="padding:10px; font-size: 20px; color: white;">Product Name</td>
-            <td style="padding:10px; font-size: 20px; color: white;">Quantity</td>
-            <td style="padding:10px; font-size: 20px; color: white;">Price</td>
-            <td style="padding:10px; font-size: 20px; color: white;">Action</td>
-        </tr>
-
-    <form action="{{url('order')}}" method="POST">
-
-        @csrf
-
-    <?php $totalprice=0;  ?>
-    
-    @foreach($cart as $carts)
-
-        <tr style="background-color: gray;">
-            <td style="padding:10px; color:white;"><input type="text" name="productname[]" value="{{$carts->product_title}}" hidden="">{{$carts->product_title}}</td>
-            <td style="padding:10px; color:white;"><input type="text" name="quantity[]" value="{{$carts->quantity}}" hidden="">{{$carts->quantity}}</td>
-            <td style="padding:10px; color:white;"><input type="text" name="price[]" value="{{$carts->price}}" hidden="">₱ {{$carts->price}}</td>
-            <td style="padding:10px; color:white;">
-                <a class="btn btn-danger" href="{{url('delete', $carts->id)}}">Delete</a></td>
-        </tr>
-
-
-        <?php $totalprice=$totalprice + $carts->price ?>
         
-    
-    @endforeach
+        
+     <!-- partial -->
+     <div class="container-fluid page-body-wrapper">
+        <div class ="container" align ="center">
+        @if(session()->has('message'))
+        
+        <div class="alert alert-success">
+        <button type="button" class="close" data-dismiss="alert">x</button>
 
-    </table>
+        {{session()->get('message')}}
+        </div>  
 
-    <div>
+        @endif
+            <table>
+                <tr style="background-color: #051831;">
 
-        <h1 style="font-size: 20px; padding: 40px;">Total Price: ₱ {{$totalprice}}</h1>
+                    <td style="padding: 20px; color: white;">Customer Name</td>
+                    <td style="padding: 20px; color: white;">Phone</td>
+                    <td style="padding: 20px; color: white;">Address</td>
+                    <td style="padding: 20px; color: white;">Product Name</td>
+                    <td style="padding: 20px; color: white;">Price</td>
+                    <td style="padding: 20px; color: white;">Quantity</td>
+                    <td style="padding: 20px; color: white;">Status</td>
+                    <td style="padding: 20px; color: white;">Action</td>
 
-    </div>
 
-    <h1 style="font-size: 20px; padding-bottom: 40px;">Proceed to Order by Choosing Mode of Payment (MOP)</h1>
-    <button class="btn btn-success">Cash on Delivery</button>
-    <a href="" class="btn btn-success">Card Payment</a>
-    </form>
+                </tr>
+
+                @foreach($order as $orders)
+
+                <tr align="center">
+
+                    <td style="padding:20px;">{{$orders->name}}</td>
+                    <td style="padding:20px;">{{$orders->phone}}</td>
+                    <td style="padding:20px;">{{$orders->address}}</td>
+                    <td style="padding:20px;">{{$orders->product_name}}</td>
+                    <td style="padding:20px;">{{$orders->price}}</td>
+                    <td style="padding:20px;">{{$orders->quantity}}</td>
+                    <td style="padding:20px;">{{$orders->status}}</td>
+                    <td style="padding:20px;"><a class="btn btn-success" href="{{url('updatestatus', $orders->id)}}">Delivered</a></td>
+                </tr>
+
+                @endforeach
+            </table>
+
+        </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
