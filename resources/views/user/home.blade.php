@@ -80,7 +80,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ url('showorder') }}">Orders</a>
+                    <a class="nav-link" href="{{ url('showmyorder') }}">Orders</a>
                   </li>
                         <x-app-layout>
   

@@ -80,7 +80,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ url('showorder') }}">Orders</a>
+                    <a class="nav-link" href="{{ url('showmyorder') }}">Orders</a>
                   </li>
 
 
@@ -137,26 +137,40 @@ https://templatemo.com/tm-546-sixteen-clothing
                     <td style="padding: 20px; color: white;">Price</td>
                     <td style="padding: 20px; color: white;">Quantity</td>
                     <td style="padding: 20px; color: white;">Status</td>
+                    <td style="padding: 20px; color: white;">Payment Status</td>
                     <td style="padding: 20px; color: white;">Action</td>
 
 
                 </tr>
 
-                @foreach($order as $orders)
+                @foreach($order as $order)
 
                 <tr align="center">
-
-                    <td style="padding:20px;">{{$orders->name}}</td>
-                    <td style="padding:20px;">{{$orders->phone}}</td>
-                    <td style="padding:20px;">{{$orders->address}}</td>
-                    <td style="padding:20px;">{{$orders->product_name}}</td>
-                    <td style="padding:20px;">{{$orders->price}}</td>
-                    <td style="padding:20px;">{{$orders->quantity}}</td>
-                    <td style="padding:20px;">{{$orders->status}}</td>
-                    <td style="padding:20px;"><a class="btn btn-success" href="{{url('updatestatus', $orders->id)}}">Delivered</a></td>
+                    <td style="padding:20px;">{{ $order->name }}</td>
+                    <td style="padding:20px;">{{ $order->phone }}</td>
+                    <td style="padding:20px;">{{ $order->address }}</td>
+                    <td style="padding:20px;">{{ $order->product_name }}</td>
+                    <td style="padding:20px;">{{ $order->price }}</td>
+                    <td style="padding:20px;">{{ $order->quantity }}</td>
+                    <td style="padding:20px;">{{ $order->status }}</td>
+                    <td style="padding:20px;">{{ $order->payment_status }}</td>
+                    <td style="padding:20px;">
+                
+                        @if($order->status == 'not delivered')
+                
+                        <a onclick="return confirm('Confirm Order Cancellation?')" class="btn btn-danger" href="{{ url('cancel_order', $order->id) }}">Cancel Order</a>
+                
+                        @else
+                
+                        <p style="font-size: 17px;">Order already cancelled</p>
+                
+                        @endif
+                
+                    </td>
                 </tr>
-
+                
                 @endforeach
+                
             </table>
 
         </div>

@@ -13,7 +13,6 @@
 
         <!-- partial -->
 
-        @include('admin.body')
 
           <!-- partial -->
         @include('admin.script')

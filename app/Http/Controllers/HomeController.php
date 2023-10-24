@@ -219,10 +219,21 @@ class HomeController extends Controller
         return redirect()->back()->with('message', 'Product Ordered Successfully');
     }
 
-    public function showorder()
+    public function showmyorder()
     {
         $order = order::all();
 
         return view('user.showorder', compact('order'));
+    }
+
+    public function cancel_order($id)
+    {
+        $order = order::find($id);
+
+        $order->status = 'Order Cancelled';
+
+        $order->save();
+
+        return redirect()->back();
     }
 }

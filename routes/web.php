@@ -66,4 +66,6 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('user.contact')
 
 route::post('/order', [HomeController::class, 'cash_on_delivery']);
 
-route::get('/showorder', [HomeController::class, 'showorder']);
+route::get('/showmyorder', [HomeController::class, 'showmyorder']);
+
+route::get('/cancel_order/{id}', [HomeController::class, 'cancel_order']);

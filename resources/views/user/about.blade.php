@@ -77,6 +77,10 @@ https://templatemo.com/tm-546-sixteen-clothing
                       Cart[{{$count}}]</a>
                   </li>
 
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ url('showmyorder') }}">Orders</a>
+                  </li>
+
 
                       <x-app-layout>
 
