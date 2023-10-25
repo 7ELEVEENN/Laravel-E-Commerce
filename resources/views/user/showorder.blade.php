@@ -156,11 +156,13 @@ https://templatemo.com/tm-546-sixteen-clothing
                     <td style="padding:20px;">{{ $order->payment_status }}</td>
                     <td style="padding:20px;">
                 
-                        @if($order->status == 'not delivered')
+                        @if($order->status == 'Order Placed')
                 
                           <a onclick="return confirm('Confirm Order Cancellation?')" class="btn btn-danger" href="{{ url('cancel_order', $order->id) }}">Cancel Order</a>
-                        @elseif($order->status == 'delivered')
+                        @elseif($order->status == 'Delivered')
                           <p style="font-size: 17px;">Order Delivered</p>
+                        @elseif($order->status == 'Order Shipped')
+                          <p style="font-size: 17px;">On Delivery</p>
 
                         @else
                 

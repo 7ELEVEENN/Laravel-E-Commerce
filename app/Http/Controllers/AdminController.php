@@ -105,7 +105,18 @@ class AdminController extends Controller
     {
         $order = order::find($id);
 
-        $order->status = 'delivered';
+        $order->status = 'Delivered';
+
+        $order->save();
+
+        return redirect()->back()->with('message', 'Order Status Updated Successfully');
+    }
+
+    public function shiporder($id)
+    {
+        $order = order::find($id);
+
+        $order->status = 'Order Shipped';
 
         $order->save();
 

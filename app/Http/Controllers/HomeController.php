@@ -207,7 +207,7 @@ class HomeController extends Controller
 
             $order->address = $address;
 
-            $order->status = 'not delivered';
+            $order->status = 'Order Placed';
 
             $order->payment_status = 'Cash On Delivery';
 

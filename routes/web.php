@@ -58,6 +58,8 @@ route::get('/showorder', [AdminController::class, 'showorder']);
 
 route::get('/updatestatus/{id}', [AdminController::class, 'updatestatus']);
 
+route::get('/shiporder/{id}', [AdminController::class, 'shiporder']);
+
 route::get('/allbooks', [HomeController::class, 'allbooks']);
 
 Route::get('/about', [HomeController::class, 'about'])->name('user.about');
