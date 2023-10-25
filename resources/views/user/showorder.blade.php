@@ -158,11 +158,13 @@ https://templatemo.com/tm-546-sixteen-clothing
                 
                         @if($order->status == 'not delivered')
                 
-                        <a onclick="return confirm('Confirm Order Cancellation?')" class="btn btn-danger" href="{{ url('cancel_order', $order->id) }}">Cancel Order</a>
-                
+                          <a onclick="return confirm('Confirm Order Cancellation?')" class="btn btn-danger" href="{{ url('cancel_order', $order->id) }}">Cancel Order</a>
+                        @elseif($order->status == 'delivered')
+                          <p style="font-size: 17px;">Order Delivered</p>
+
                         @else
                 
-                        <p style="font-size: 17px;">Order already cancelled</p>
+                          <p style="font-size: 17px;">Order already cancelled</p>
                 
                         @endif
                 
