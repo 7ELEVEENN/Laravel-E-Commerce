@@ -220,10 +220,15 @@ class HomeController extends Controller
     }
 
     public function showmyorder()
-    {
-        $order = order::all();
+    { {
+            // Get the currently authenticated user
+            $user = auth()->user();
 
-        return view('user.showorder', compact('order'));
+            // Get orders for the logged-in user
+            $order = Order::where('name', $user->name)->get();
+
+            return view('user.showorder', compact('order'));
+        }
     }
 
     public function cancel_order($id)
