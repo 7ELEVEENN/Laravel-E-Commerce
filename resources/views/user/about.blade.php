@@ -199,8 +199,8 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </div>
                 <div class="down-content">
                   <h4>Marc Christian Tumaneng</h4>
-                  <span>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</span>
-                  <p></p>
+                  <span>Member</span>
+                  <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
                 </div>
               </div>
             </div>
