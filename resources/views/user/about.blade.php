@@ -170,6 +170,7 @@
                   </div>
                 </div>
                 <div class="down-content" >
+                  <!-- POGI SI VENN -->
                   <h4>Venn Delos Santos</h4>
                   <span>Member</span>
                   <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
